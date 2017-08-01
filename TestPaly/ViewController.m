@@ -7,7 +7,6 @@
 //
 
 #import "ViewController.h"
-#import "UPLivePlayerDemoViewController.h"
 
 @interface ViewController ()
 
@@ -17,12 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-    
-    UPLivePlayerDemoViewController *vc = [UPLivePlayerDemoViewController new];
-    vc.title = @"播放器";
-    vc.view.backgroundColor = [UIColor whiteColor];
-    [self.navigationController pushViewController:vc animated:YES];
+
 }
 
 

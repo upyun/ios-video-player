@@ -14,15 +14,12 @@
 		3E41BD261F0F684600BD9AEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E41BD251F0F684600BD9AEA /* Assets.xcassets */; };
 		3E41BD291F0F684600BD9AEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E41BD271F0F684600BD9AEA /* LaunchScreen.storyboard */; };
 		3E41BD311F0F6B0C00BD9AEA /* UPLiveSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41BD301F0F6B0C00BD9AEA /* UPLiveSDK.framework */; };
-		3E41BD371F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E41BD331F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.m */; };
 		3E41BD381F0F6B3E00BD9AEA /* UPLivePlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E41BD351F0F6B3E00BD9AEA /* UPLivePlayerVC.m */; };
 		3E41BD391F0F6B3E00BD9AEA /* UPLivePlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E41BD361F0F6B3E00BD9AEA /* UPLivePlayerVC.xib */; };
 		3E41BD3C1F0F6C1900BD9AEA /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41BD3B1F0F6C1900BD9AEA /* libz.tbd */; };
 		3E41BD3E1F0F6C2800BD9AEA /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41BD3D1F0F6C2800BD9AEA /* libiconv.tbd */; };
 		3E41BD401F0F6C3300BD9AEA /* libbz2.1.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41BD3F1F0F6C3300BD9AEA /* libbz2.1.0.tbd */; };
 		3E41BD421F0F6C3E00BD9AEA /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41BD411F0F6C3E00BD9AEA /* libc++.tbd */; };
-		3E552BE41F25EA4E002E5A62 /* PlayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E552BE21F25EA4E002E5A62 /* PlayerVC.m */; };
-		3E552BE51F25EA4E002E5A62 /* PlayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E552BE31F25EA4E002E5A62 /* PlayerVC.xib */; };
 		3EBD85071F307498009DF2D1 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E41BD531F0F6CDF00BD9AEA /* VideoToolbox.framework */; };
 /* End PBXBuildFile section */
 
@@ -38,8 +35,6 @@
 		3E41BD281F0F684600BD9AEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E41BD2A1F0F684600BD9AEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3E41BD301F0F6B0C00BD9AEA /* UPLiveSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UPLiveSDK.framework; sourceTree = "<group>"; };
-		3E41BD321F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPLivePlayerDemoViewController.h; sourceTree = "<group>"; };
-		3E41BD331F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPLivePlayerDemoViewController.m; sourceTree = "<group>"; };
 		3E41BD341F0F6B3E00BD9AEA /* UPLivePlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPLivePlayerVC.h; sourceTree = "<group>"; };
 		3E41BD351F0F6B3E00BD9AEA /* UPLivePlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPLivePlayerVC.m; sourceTree = "<group>"; };
 		3E41BD361F0F6B3E00BD9AEA /* UPLivePlayerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UPLivePlayerVC.xib; sourceTree = "<group>"; };
@@ -56,9 +51,6 @@
 		3E41BD4F1F0F6CC500BD9AEA /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		3E41BD511F0F6CD100BD9AEA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		3E41BD531F0F6CDF00BD9AEA /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
-		3E552BE11F25EA4E002E5A62 /* PlayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerVC.h; sourceTree = "<group>"; };
-		3E552BE21F25EA4E002E5A62 /* PlayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerVC.m; sourceTree = "<group>"; };
-		3E552BE31F25EA4E002E5A62 /* PlayerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayerVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,11 +91,6 @@
 		3E41BD181F0F684600BD9AEA /* TestPaly */ = {
 			isa = PBXGroup;
 			children = (
-				3E552BE11F25EA4E002E5A62 /* PlayerVC.h */,
-				3E552BE21F25EA4E002E5A62 /* PlayerVC.m */,
-				3E552BE31F25EA4E002E5A62 /* PlayerVC.xib */,
-				3E41BD321F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.h */,
-				3E41BD331F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.m */,
 				3E41BD341F0F6B3E00BD9AEA /* UPLivePlayerVC.h */,
 				3E41BD351F0F6B3E00BD9AEA /* UPLivePlayerVC.m */,
 				3E41BD361F0F6B3E00BD9AEA /* UPLivePlayerVC.xib */,
@@ -208,7 +195,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3E41BD291F0F684600BD9AEA /* LaunchScreen.storyboard in Resources */,
-				3E552BE51F25EA4E002E5A62 /* PlayerVC.xib in Resources */,
 				3E41BD261F0F684600BD9AEA /* Assets.xcassets in Resources */,
 				3E41BD391F0F6B3E00BD9AEA /* UPLivePlayerVC.xib in Resources */,
 				3E41BD241F0F684600BD9AEA /* Main.storyboard in Resources */,
@@ -225,8 +211,6 @@
 				3E41BD211F0F684600BD9AEA /* ViewController.m in Sources */,
 				3E41BD1E1F0F684600BD9AEA /* AppDelegate.m in Sources */,
 				3E41BD381F0F6B3E00BD9AEA /* UPLivePlayerVC.m in Sources */,
-				3E552BE41F25EA4E002E5A62 /* PlayerVC.m in Sources */,
-				3E41BD371F0F6B3E00BD9AEA /* UPLivePlayerDemoViewController.m in Sources */,
 				3E41BD1B1F0F684600BD9AEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

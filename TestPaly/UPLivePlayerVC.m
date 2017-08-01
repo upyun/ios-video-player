@@ -120,13 +120,6 @@
 
 - (void)stop {
     [_player stop];
-    
-    if ([_player.url isEqualToString:@"https://test86400.b0.upaiyun.com/7937144.mp4"]) {
-        _player.url = @"rtmp://live.hkstv.hk.lxdns.com/live/hks";
-    } else {
-        _player.url = @"https://test86400.b0.upaiyun.com/7937144.mp4";
-    }
-
 }
 
 - (void)pause {

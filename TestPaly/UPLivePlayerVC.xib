@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -31,7 +31,9 @@
                     <constraints>
                         <constraint firstAttribute="width" constant="64" id="gXE-FW-7FM"/>
                     </constraints>
-                    <state key="normal" title="关闭"/>
+                    <state key="normal" title="关闭">
+                        <color key="titleColor" red="0.02489573695" green="0.72963529829999996" blue="0.96713989970000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
                     <connections>
                         <action selector="close:" destination="-1" eventType="touchUpInside" id="IST-IM-DMI"/>
                     </connections>
@@ -48,7 +50,7 @@
                         <constraint firstAttribute="width" constant="55" id="y6y-WS-xv0"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="pause">
+                    <state key="normal" title="暂停">
                         <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <variation key="default">
@@ -67,7 +69,7 @@
                         <constraint firstAttribute="width" constant="55" id="k1U-j1-7fk"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="play">
+                    <state key="normal" title="播放">
                         <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <variation key="default">
@@ -88,7 +90,7 @@
                         <constraint firstAttribute="width" constant="55" id="Xgj-kG-PKW"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="stop">
+                    <state key="normal" title="停止">
                         <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <variation key="default">
@@ -111,7 +113,7 @@
                         <constraint firstAttribute="height" constant="55" id="rfZ-95-bm2"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                    <state key="normal" title="streaminfo">
+                    <state key="normal" title="视频信息">
                         <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                     <variation key="default">
@@ -124,10 +126,10 @@
                     </variation>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0/NA    " textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbo-Vr-o7H">
-                    <rect key="frame" x="259" y="606" width="103" height="21"/>
+                    <rect key="frame" x="212" y="606" width="150" height="21"/>
                     <color key="tintColor" red="0.66666666666666663" green="0.66666666666666663" blue="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="width" constant="103" id="5ZB-rb-c0t"/>
+                        <constraint firstAttribute="width" constant="150" id="5ZB-rb-c0t"/>
                         <constraint firstAttribute="height" constant="21" id="iun-Wb-vdR"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
@@ -135,10 +137,10 @@
                     <nil key="highlightedColor"/>
                 </label>
                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbf-zl-6IL">
-                    <rect key="frame" x="135" y="71" width="240" height="355"/>
+                    <rect key="frame" x="135" y="71" width="240" height="300"/>
                     <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.1993380248091603" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="355" id="IhB-u7-W99"/>
+                        <constraint firstAttribute="height" constant="300" id="IhB-u7-W99"/>
                         <constraint firstAttribute="width" constant="240" id="vcM-g1-Ban"/>
                     </constraints>
                     <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
@@ -152,7 +154,9 @@
                         <constraint firstAttribute="height" constant="30" id="QG1-fD-7xe"/>
                         <constraint firstAttribute="width" constant="31" id="ZJ5-wj-rOA"/>
                     </constraints>
-                    <state key="normal" title="静音"/>
+                    <state key="normal" title="静音">
+                        <color key="titleColor" red="0.02489573695" green="0.72963529829999996" blue="0.96713989970000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
                     <connections>
                         <action selector="muteBtnTap:" destination="-1" eventType="touchUpInside" id="kAh-Mn-d4f"/>
                     </connections>
@@ -163,7 +167,9 @@
                         <constraint firstAttribute="height" constant="30" id="X1E-vH-xX2"/>
                         <constraint firstAttribute="width" constant="50" id="ymt-As-eX4"/>
                     </constraints>
-                    <state key="normal" title="横竖屏"/>
+                    <state key="normal" title="横竖屏">
+                        <color key="titleColor" red="0.02489573695" green="0.72963529829999996" blue="0.96713989970000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
                     <connections>
                         <action selector="fullScreenBtnTap:" destination="-1" eventType="touchUpInside" id="LXo-wv-Svw"/>
                     </connections>

@@ -7,9 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "UPLivePlayerDemoViewController.h"
 #import "UPLivePlayerVC.h"
-#import "PlayerVC.h"
 
 
 @interface AppDelegate ()
@@ -22,13 +20,10 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     
-    UPLivePlayerVC *vc = [UPLivePlayerVC new];
+    UPLivePlayerVC *vc = [[UPLivePlayerVC alloc] init];
+    vc.url = @"http://uprocess.b0.upaiyun.com/demo/short_video/UPYUN_0.mp4";
     
     
-    
-    vc.title = @"播放器";
-    vc.url = @"https://test86400.b0.upaiyun.com/7937144.mp4";
-    vc.bufferingTime = 2;
     self.window.rootViewController = vc;
     [self.window makeKeyAndVisible];
     return YES;
