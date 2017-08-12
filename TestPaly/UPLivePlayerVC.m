@@ -102,6 +102,12 @@
     [_player setFrame:[UIScreen mainScreen].bounds];
 
     [self.view insertSubview:_player.playView atIndex:0];
+    _player.playView.autoresizingMask = UIViewAutoresizingFlexibleWidth
+    | UIViewAutoresizingFlexibleTopMargin
+    | UIViewAutoresizingFlexibleRightMargin
+    | UIViewAutoresizingFlexibleLeftMargin
+    | UIViewAutoresizingFlexibleHeight
+    | UIViewAutoresizingFlexibleBottomMargin;
     
     
     _activityIndicatorView.center = self.view.center;
