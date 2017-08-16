@@ -205,7 +205,6 @@ NSMutableString *string = [NSMutableString new];
     NSLog(@"progressSliderSeekTime slider value : %.2f", slider_.value);
     if (_player) {
         [_player seekToTime:slider_.value];
-        _sliding = NO;
     }
 }
 
@@ -276,6 +275,7 @@ NSMutableString *string = [NSMutableString new];
             break;
         case UPAVPlayerStatusPlaying:{
             NSLog(@"播放中－－－－－");
+            _sliding = NO;
             [self.activityIndicatorView stopAnimating];
             self.bufferingProgressLabel.hidden = YES;
             self.pauseBtn.enabled = YES;
